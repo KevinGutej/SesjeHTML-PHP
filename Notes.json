@@ -1,0 +1,38 @@
+//JSON
+
+//JSON - JavaScript Object Notation
+
+//-lekki format wymiany danych
+//-czytelny
+
+
+//Json Types - Strings, Numbers, Booleans, null , arrays , objects
+
+//Files - file_name.json
+
+//{
+    //"Key": "Value",
+    //"Key": "Value"
+
+//}
+
+
+{
+    "name": "Kevin",
+    "surename": "Gutej",
+    "age": 16,
+    "isProgrammer": true,
+    "address": {
+        "street": "Ulica",
+        "city": "miasto..."
+    },
+    "hobbies": ["football", "gaming"],
+    "animals": null
+}
+
+//- text
+//- number
+//- boolean
+//- obiekt
+//- tablica
+//- null	

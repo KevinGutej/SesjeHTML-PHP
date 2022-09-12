@@ -1,0 +1,32 @@
+COMPOSER:
+
+FIRST CREATE A NEW FOLDER USING MKDIR IN CMD
+THEN CD TO THAT FOLDER IN CMD
+
+PASTE THIS INTO THE CONSOLE IF YOU ARE IN THE FOLDER YOU HAVE JUST CREATED:
+php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+php -r "if (hash_file('sha384', 'composer-setup.php') === '55ce33d7678c5a611085589f1f3ddf8b3c52d662cd01d4ba75c0ee0459970c2200a51f492d557530c71c15d8dba01eae') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+php composer-setup.php
+php -r "unlink('composer-setup.php');"
+
+OPEN VISUAL STUDIO AND OPEN THE FOLDER
+
+IN TERMINAL WRITE: php composer.phar (WILL GIVE YOU ALL THE OPTIONS)
+
+USE THIS COMMAND NEXT: php compser.phar init
+
+INPUT WHO THE USER/NAME IS E.G: kevin/composer2 (composer2 file name)
+ADD DESCRIPTION
+ENTER
+ENTER
+PACKAGE TYPE: PROJECT
+ENTER
+NO
+NO
+N
+
+php composer.phar install
+
+php composer.phar require symfony/symfony
+
+DONE
